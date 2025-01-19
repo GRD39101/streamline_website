@@ -10,4 +10,5 @@ name = st.text_input("What is your name? Type it below...")
 if(st.button("Submit")):
     result = name.title()
     st.success(result)
+    st.write(f"Hello, {result}!")
 
